@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+	<title>Exercise Tracker</title>
+</head>
+
+<body>
+	<h1>Exercise Tracker</h1>
+    <h1>File Metadata Microservice</h1>
+    <p>Please upload a file</p>
+		<form id="upload" action="/api/fileanalyse" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="file">Choose file to upload</label>
+        <input type="file" id="file" name="upfile">
+      </div>
+      <div>
+        <input type="submit" class="submit" value="Upload">
+      </div>
+    </form>
+</body>
+
+</html>
